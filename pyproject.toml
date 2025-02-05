@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "converters"
+version = "0.1.0"
+description = ""
+authors = ["Roman <mtdoka@bk.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
